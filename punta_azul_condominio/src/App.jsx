@@ -55,7 +55,7 @@ const Home = () => {
       >
         <Box>
           <Typography variant="h6" gutterBottom>
-            Link de formulario para Airbnb.
+            Link de formulario para Alojamiento temporal.
           </Typography>
           <Typography>
             Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen la imagen generada.
@@ -63,7 +63,7 @@ const Home = () => {
           <Box display="flex" alignItems="center" gap={1} marginTop={1}>
             <Button 
               variant="contained" 
-              onClick={() => handleCopy("https://agenciah.github.io/residenza_condominio_xiris_aviso_de_mudanza/")} 
+              onClick={() => handleCopy("https://agenciah.github.io/alojamiento_temporal_punta_azul/")} 
               sx={{ backgroundColor: "#26A9E1", color: "#fff" }}
             >
               Copiar
@@ -84,7 +84,7 @@ const Home = () => {
       >
         <Box>
           <Typography variant="h6" gutterBottom>
-            Link de formulario para Entrada Mudanza Condominio Xiris.
+            Link de formulario para Entrada Mudanza Condominio Punta Azul.
           </Typography>
           <Typography>
             Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen la imagen generada.
@@ -92,7 +92,7 @@ const Home = () => {
           <Box display="flex" alignItems="center" gap={1} marginTop={1}>
             <Button 
               variant="contained" 
-              onClick={() => handleCopy("https://agenciah.github.io/entrada_mudanza_xiris/")} 
+              onClick={() => handleCopy("https://agenciah.github.io/entrada_mudanza_punta_azul/")} 
               sx={{ backgroundColor: "#26A9E1", color: "#fff" }}
             >
               Copiar
@@ -112,7 +112,7 @@ const Home = () => {
         >
         <Box>
           <Typography variant="h6" gutterBottom>
-            Link de formulario aceptación de reglamento Condominio Xiris.
+            Link de formulario aceptación de reglamento Condominio Punta Azul.
           </Typography>
           <Typography>
             Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen el pdf generado.
@@ -120,7 +120,7 @@ const Home = () => {
           <Box display="flex" alignItems="center" gap={1} marginTop={1}>
             <Button 
               variant="contained" 
-              onClick={() => handleCopy("https://agenciah.github.io/residenza_responsiva_xiris/")} 
+              onClick={() => handleCopy("https://agenciah.github.io/punta_azul_responsiva/")} 
               sx={{ backgroundColor: "#26A9E1", color: "#fff" }}
             >
               Copiar
@@ -128,7 +128,7 @@ const Home = () => {
           </Box>
         </Box>
         </Container>
-        <Container
+        {/* <Container
         sx={{
           marginTop: "20px",
           padding: "15px",
@@ -154,7 +154,7 @@ const Home = () => {
             </Button>
           </Box>
         </Box>
-        </Container>
+        </Container> */}
         <Container
         sx={{
           marginTop: "20px",
@@ -166,7 +166,7 @@ const Home = () => {
         >
           <Box>
             <Typography variant="h6" gutterBottom>
-              Link de formulario Solicitud de Tag Condominio Xiris.
+              Link de formulario Solicitud de Tag Condominio Punta Azul.
             </Typography>
             <Typography>
               Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen el pdf generado.
@@ -174,7 +174,7 @@ const Home = () => {
             <Box display="flex" alignItems="center" gap={1} marginTop={1}>
               <Button 
                 variant="contained" 
-                onClick={() => handleCopy("https://agenciah.github.io/residenza_tag_playas_conchal/")} 
+                onClick={() => handleCopy("https://agenciah.github.io/punta_azul_solicitud_tag/")} 
                 sx={{ backgroundColor: "#26A9E1", color: "#fff" }}
               >
                 Copiar
