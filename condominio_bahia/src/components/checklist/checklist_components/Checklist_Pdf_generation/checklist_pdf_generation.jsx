@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import jsPDF from 'jspdf';
 import { checklist_pdfStyles } from './checklist_pdf_styles';
-import background from "../checklist assets/checklist_punta_azul.jpg";
+import background from "../checklist assets/checklist_bahia.jpg";
 import { Button } from '@mui/material';
 
 function Checklist_PDFGeneration({ checklistData, images }) {

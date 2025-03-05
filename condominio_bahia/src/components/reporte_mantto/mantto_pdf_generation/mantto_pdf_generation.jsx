@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import jsPDF from 'jspdf';
 import { manttoPdfStyles } from './mantto_pdf_styles';
-import background from "../mantto_assets/reporte de mantenimiento base.jpg";
+import background from "../mantto_assets/reporte_mtto_bahia.jpg";
 import { Button } from '@mui/material';
 
 function Mantto_PDFGeneration({ title, comments, images }) {

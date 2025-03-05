@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
-import background from '../avisos_assets/avisos_punta_azul.jpg';
+import background from '../avisos_assets/avisos_bahia.jpg';
 
 function Avisos_form() {
   const [formData, setFormData] = useState({

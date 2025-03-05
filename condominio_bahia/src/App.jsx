@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
 import residenza_logo from "./assets/logos/Residenza_logo.jpg";
-import logo_xiris_ac from "./assets/logos/punta_azul_logo.jpeg";
+// import logo_xiris_ac from "./assets/logos/punta_azul_logo.jpeg";
 import Mantto_Main from "./components/reporte_mantto/mantto_main";
 import Checklist_Main from "./components/checklist/checklist_main";
 import Avisos_main from "./components/avisos_xiris/avisos_main";
@@ -84,7 +84,7 @@ const Home = () => {
       >
         <Box>
           <Typography variant="h6" gutterBottom>
-            Link de formulario para Entrada Mudanza Condominio Punta Azul.
+            Link de formulario para Entrada Mudanza Condominio Bahía.
           </Typography>
           <Typography>
             Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen la imagen generada.
@@ -112,7 +112,7 @@ const Home = () => {
         >
         <Box>
           <Typography variant="h6" gutterBottom>
-            Link de formulario aceptación de reglamento Condominio Punta Azul.
+            Link de formulario aceptación de reglamento Condominio Bahía.
           </Typography>
           <Typography>
             Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen el pdf generado.
@@ -166,7 +166,7 @@ const Home = () => {
         >
           <Box>
             <Typography variant="h6" gutterBottom>
-              Link de formulario Solicitud de Tag Condominio Punta Azul.
+              Link de formulario Solicitud de Tag Condominio Bahía.
             </Typography>
             <Typography>
               Copia el link y mándalo al propietario para que llene el formulario, al final, por favor solicita que te envíen el pdf generado.
@@ -203,7 +203,7 @@ function App() {
         position: "relative"
       }}>
         <img src={residenza_logo} alt="Residenza Logo" style={{ maxWidth: "80px", height: "auto" }} />
-        <img src={logo_xiris_ac} alt="Xiris Logo" style={{ marginRight: "20px", maxWidth: "80px", height: "auto" }} />
+        {/* <img src={logo_xiris_ac} alt="Xiris Logo" style={{ marginRight: "20px", maxWidth: "80px", height: "auto" }} /> */}
       </Box>
 
       <Container sx={{ maxWidth: "1200px", marginTop: "10px" }}>
